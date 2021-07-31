@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{39
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paratha.Web", "Paratha.Web\Paratha.Web.csproj", "{81914AE9-A0C4-4294-BEB4-DDCCB257BF54}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{3A1E57A2-28A0-4346-B144-D406D7029F6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paratha.Services.ProductAPI", "Paratha.Services.ProductAPI\Paratha.Services.ProductAPI.csproj", "{DD013D49-C5E2-4D9F-AEBE-E6AC04F4861B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{81914AE9-A0C4-4294-BEB4-DDCCB257BF54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81914AE9-A0C4-4294-BEB4-DDCCB257BF54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81914AE9-A0C4-4294-BEB4-DDCCB257BF54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD013D49-C5E2-4D9F-AEBE-E6AC04F4861B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD013D49-C5E2-4D9F-AEBE-E6AC04F4861B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD013D49-C5E2-4D9F-AEBE-E6AC04F4861B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD013D49-C5E2-4D9F-AEBE-E6AC04F4861B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{81914AE9-A0C4-4294-BEB4-DDCCB257BF54} = {399AAEC6-2393-4721-85A7-60043013F39B}
+		{DD013D49-C5E2-4D9F-AEBE-E6AC04F4861B} = {3A1E57A2-28A0-4346-B144-D406D7029F6A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9496142A-2BF5-4577-8C59-4D8840A3CD9F}
