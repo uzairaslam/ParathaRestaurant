@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Paratha.Services.ProductAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/products")]
     [ApiController]
     public class ProductAPIController : ControllerBase
     {
