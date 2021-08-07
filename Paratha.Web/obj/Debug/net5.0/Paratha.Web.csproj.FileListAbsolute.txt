@@ -355,3 +355,4 @@ F:\Projects\Microservices\ParathaRestaurant\Paratha.Web\obj\Debug\net5.0\Paratha
 F:\Projects\Microservices\ParathaRestaurant\Paratha.Web\obj\Debug\net5.0\ref\Paratha.Web.dll
 F:\Projects\Microservices\ParathaRestaurant\Paratha.Web\obj\Debug\net5.0\Paratha.Web.pdb
 F:\Projects\Microservices\ParathaRestaurant\Paratha.Web\obj\Debug\net5.0\Paratha.Web.genruntimeconfig.cache
+F:\Projects\Microservices\ParathaRestaurant\Paratha.Web\bin\Debug\net5.0\Newtonsoft.Json.dll

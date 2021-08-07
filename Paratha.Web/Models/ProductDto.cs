@@ -1,4 +1,5 @@
 ﻿namespace Paratha.Web.Models
+{
     public class ProductDto
     {
         public int ProductId { get; set; }
