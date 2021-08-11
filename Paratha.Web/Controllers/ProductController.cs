@@ -70,5 +70,30 @@ namespace Paratha.Web.Controllers
             }
             return View(model);
         }
+
+        public async Task<IActionResult> ProductDelete(int productId)
+        {
+            var response = await _productService.GetProductByIdAsync<ResponseDto>(productId);
+            if (response != null && response.IsSuccess)
+            {
+                ProductDto product = JsonConvert.DeserializeObject<ProductDto>(Convert.ToString(response.Result));
+                return View(product);
+            }
+            return NotFound();
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ProductDelete(ProductDto model)
+        {
+            if (model.ProductId > 0)
+            {
+                var response = await _productService.DeleteProductAsync<ResponseDto>(model.ProductId);
+                if (response.IsSuccess)
+                {
+                    return RedirectToAction(nameof(ProductIndex));
+                }
+            }
+            return View(model);
+        }
     }
 }
